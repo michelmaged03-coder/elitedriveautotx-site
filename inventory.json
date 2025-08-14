@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "SE",
+    "price": 18990,
+    "miles": 42800,
+    "drivetrain": "FWD",
+    "transmission": "CVT",
+    "image": "https://images.unsplash.com/photo-1550355291-bbee04a92027?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "C300",
+    "trim": "",
+    "price": 26950,
+    "miles": 52000,
+    "drivetrain": "RWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1606661904969-5949e1b8e5bd?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2018,
+    "make": "Land Rover",
+    "model": "Range Rover Evoque",
+    "trim": "SE",
+    "price": 25990,
+    "miles": 61000,
+    "drivetrain": "AWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1549925232-637d5f1dcd5b?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "330i",
+    "trim": "",
+    "price": 27990,
+    "miles": 34500,
+    "drivetrain": "RWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2017,
+    "make": "Honda",
+    "model": "Civic",
+    "trim": "EX",
+    "price": 14990,
+    "miles": 78500,
+    "drivetrain": "FWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1550355291-79c2d910d187?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD",
+    "price": 32990,
+    "miles": 21000,
+    "drivetrain": "RWD",
+    "transmission": "1-Speed",
+    "image": "https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "ES 350",
+    "trim": "",
+    "price": 16990,
+    "miles": 95500,
+    "drivetrain": "FWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1618829620505-1611b7b0703a?q=80&w=1400&auto=format&fit=crop"
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "trim": "LT",
+    "price": 43990,
+    "miles": 49800,
+    "drivetrain": "RWD",
+    "transmission": "Auto",
+    "image": "https://images.unsplash.com/photo-1605558096495-80ddf5b5d6a7?q=80&w=1400&auto=format&fit=crop"
+  }
+]

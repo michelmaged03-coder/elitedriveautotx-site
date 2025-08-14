@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elite Drive Auto TX — Quality Vehicles. Exceptional Service.</title>
+  <meta name="description" content="Elite Drive Auto TX — Buy & sell used cars in DFW. Browse inventory, apply for financing, or text us for fast help." />
+  <meta property="og:title" content="Elite Drive Auto TX" />
+  <meta property="og:description" content="Browse inventory, apply for financing, and sell your car." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.elitedriveautotx.com" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner" role="navigation" aria-label="Utility links">
+      <a href="#visit" class="top-link">Visit</a>
+      <a href="#finance" class="top-link">Finance</a>
+      <a href="tel:+12143151353" class="top-link">Call</a>
+      <button class="menu-btn" aria-controls="main-menu" aria-expanded="false">Menu</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="logo" href="#" aria-label="Elite Drive Auto home">
+        <span class="logo__mark">E</span><span class="logo__text">lite Drive <strong>Auto TX</strong></span>
+      </a>
+      <nav id="main-menu" class="main-nav" aria-label="Main">
+        <a href="#inventory">Inventory</a>
+        <a href="#sell">Sell a Car</a>
+        <a href="#finance">Financing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-label="Hero">
+    <div class="hero__media">
+      <div class="hero__fallback" aria-hidden="true"></div>
+    </div>
+    <div class="container hero__content">
+      <h1>Luxury. Exotic. <br />And much more.</h1>
+      <form id="searchForm" class="search" role="search" aria-label="Search all inventory">
+        <label for="searchInput" class="sr-only">Search all inventory</label>
+        <input id="searchInput" type="search" placeholder="Search all inventory…" autocomplete="off" />
+        <button type="submit" class="btn">GO</button>
+      </form>
+      <div id="brandChips" class="chips" aria-label="Popular brands"></div>
+    </div>
+  </section>
+
+  <section class="cta-grid container" aria-label="Primary actions">
+    <a class="card" href="#inventory">
+      <div class="card__icon" aria-hidden="true">🛒</div>
+      <h3>Buy a Car</h3>
+      <p>Browse our curated inventory across every budget.</p>
+    </a>
+    <a class="card" href="#sell" id="sell-link">
+      <div class="card__icon" aria-hidden="true">🔁</div>
+      <h3>Sell a Car</h3>
+      <p>Fast appraisal and same-day offers.</p>
+    </a>
+  </section>
+
+  <section id="inventory" class="container inventory-section" aria-label="Inventory">
+    <header class="section-head">
+      <h2>Featured Inventory</h2>
+      <div class="filters">
+        <select id="sortSelect" aria-label="Sort inventory">
+          <option value="featured" selected>Sort: Featured</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="year-desc">Year: New to Old</option>
+          <option value="year-asc">Year: Old to New</option>
+          <option value="miles-asc">Mileage: Low to High</option>
+          <option value="miles-desc">Mileage: High to Low</option>
+        </select>
+        <div class="price-range">
+          <label for="minPrice" class="sr-only">Min price</label>
+          <input id="minPrice" type="number" placeholder="Min $" min="0" />
+          <span aria-hidden="true">–</span>
+          <label for="maxPrice" class="sr-only">Max price</label>
+          <input id="maxPrice" type="number" placeholder="Max $" min="0" />
+          <button id="priceApply" class="btn btn--small" type="button">Apply</button>
+        </div>
+      </div>
+    </header>
+    <div id="inventoryGrid" class="grid"></div>
+    <div id="noResults" class="no-results" hidden>No cars found. Try clearing filters.</div>
+  </section>
+
+  <section id="sell" class="sell-section">
+    <div class="container sell__inner">
+      <div class="sell__copy">
+        <h2>Ready to sell your car?</h2>
+        <p>Tell us a bit about your vehicle. We’ll contact you with an offer.</p>
+      </div>
+      <form id="sellForm" class="form" aria-label="Sell a Car form">
+        <div class="form__row">
+          <label>Full Name
+            <input type="text" name="name" required />
+          </label>
+          <label>Phone
+            <input type="tel" name="phone" required />
+          </label>
+        </div>
+        <div class="form__row">
+          <label>Email
+            <input type="email" name="email" required />
+          </label>
+          <label>ZIP
+            <input type="text" name="zip" pattern="\d5" />
+          </label>
+        </div>
+        <div class="form__row">
+          <label>Year
+            <input type="number" name="year" min="1980" max="2026" />
+          </label>
+          <label>Make
+            <input type="text" name="make" />
+          </label>
+          <label>Model
+            <input type="text" name="model" />
+          </label>
+        </div>
+        <label>Miles
+          <input type="number" name="miles" min="0" />
+        </label>
+        <label>Notes
+          <textarea name="notes" rows="4" placeholder="Trim, condition, options, accidents, etc."></textarea>
+        </label>
+        <button class="btn" type="submit">Get My Offer</button>
+        <p class="form__small">Demo: stores submissions locally. Replace with your CRM endpoint.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="finance" class="finance-section">
+    <div class="container finance__inner">
+      <h2>Financing made easy</h2>
+      <ul class="bullets">
+        <li>All credit types welcome</li>
+        <li>Low APR for qualified buyers</li>
+        <li>Trade-in & extended warranty options</li>
+      </ul>
+      <a class="btn" href="#contact">Apply Now</a>
+    </div>
+  </section>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <h3>Elite Drive Auto TX</h3>
+        <p>Fort Worth, TX • Open Mon–Sat</p>
+        <p><a href="tel:+12143151353">Call: 214-315-1353</a></p>
+        <p><a href="mailto:sales@elitedriveautotx.com">sales@elitedriveautotx.com</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="#inventory">Inventory</a></li>
+          <li><a href="#sell">Sell a Car</a></li>
+          <li><a href="#finance">Financing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon–Sat: 10:00–7:00<br />Sun: Closed</p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Elite Drive Auto TX. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="fab" href="sms:+12143151353" aria-label="Text Us">
+    <span class="fab__bubble">Text Us</span>
+  </a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
