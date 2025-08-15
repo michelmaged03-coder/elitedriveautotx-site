@@ -1,25 +1,27 @@
+[
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range Dual Motor AWD",
+    "price": 22350,
+    "miles": 39736,
+    "image": "images/tesla-model-y-2020/IMG_6515.PNG",
+    "images": [
+      "images/tesla-model-y-2020/IMG_6515.PNG",
+      "images/tesla-model-y-2020/IMG_6516.PNG",
+      "images/tesla-model-y-2020/IMG_6517.PNG",
+      "images/tesla-model-y-2020/IMG_6518.PNG",
+      "images/tesla-model-y-2020/IMG_6520.PNG",
+      "images/tesla-model-y-2020/IMG_6522.PNG",
+      "images/tesla-model-y-2020/IMG_6525.PNG",
+      "images/tesla-model-y-2020/IMG_6523.PNG",
+      "images/tesla-model-y-2020/IMG_6524(1).PNG",
+      "images/tesla-model-y-2020/IMG_6525.PNG"
+    ]
+  }
+]
 
-{
-  "year": 2020,
-  "make": "Tesla",
-  "model": "Model Y",
-  "trim": "Long Range Dual Motor AWD",
-  "price": 22350,
-  "miles": 39736,
-  "image": "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6515.PNG",
-  "images": [
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6515.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6516.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6517.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6518.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6520.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6521.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6522.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6523.PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6524(1).PNG",
-    "https://raw.githubusercontent.com/michelmaged03-coder/elitedriveautotx-site/main/images/tesla-model-y-2020/IMG_6525.PNG"
-  ]
-}
 
 
 
