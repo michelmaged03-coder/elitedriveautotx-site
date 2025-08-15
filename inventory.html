@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory - Elite Drive Auto TX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Inventory</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="inventory.html">Inventory</a>
+        </nav>
+    </header>
+
+    <main id="car-list"></main>
+
+    <script>
+        fetch('inventory.json')
+            .then(response => response.json())
+            .then(data => {
+                const carList = document.getElementById('car-list');
+                data.forEach(car => {
+                    const carDiv = document.createElement('div');
+                    carDiv.classList.add('car');
+
+                    carDiv.innerHTML = `
+                        <h2>${car.year} ${car.make} ${car.model}</h2>
+                        <p>${car.trim}</p>
+                        <p>Price: $${car.price.toLocaleString()}</p>
+                        <p>Miles: ${car.miles.toLocaleString()}</p>
+                        <img src="${car.image}" alt="${car.make} ${car.model}" style="width:300px">
+                    `;
+
+                    carList.appendChild(carDiv);
+                });
+            })
+            .catch(error => console.error('Error loading inventory:', error));
+    </script>
+</body>
+</html>
