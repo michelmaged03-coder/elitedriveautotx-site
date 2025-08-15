@@ -1,24 +1,17 @@
 [
   {
-    "year": 2020,
     "make": "Tesla",
     "model": "Model Y",
-    "trim": "Long Range Dual Motor AWD",
-    "price": 22350,
-    "miles": 39736,
-    "image": "images/tesla-model-y-2020/IMG_6515.PNG",
-    "images": [
-      "images/tesla-model-y-2020/IMG_6515.PNG",
-      "images/tesla-model-y-2020/IMG_6516.PNG",
-      "images/tesla-model-y-2020/IMG_6517.PNG",
-      "images/tesla-model-y-2020/IMG_6518.PNG",
-      "images/tesla-model-y-2020/IMG_6520.PNG",
-      "images/tesla-model-y-2020/IMG_6522.PNG",
-      "images/tesla-model-y-2020/IMG_6525.PNG",
-      "images/tesla-model-y-2020/IMG_6523.PNG",
-      "images/tesla-model-y-2020/IMG_6524(1).PNG",
-      "images/tesla-model-y-2020/IMG_6525.PNG"
-    ]
+    "year": 2020,
+    "price": 42000,
+    "image": "images/tesla-model-y-2020/photo1.jpg"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C300",
+    "year": 2019,
+    "price": 26950,
+    "image": "images/mercedes-c300-2019/photo1.jpg"
   }
 ]
 
