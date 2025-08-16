@@ -10,6 +10,32 @@
 </head>
 <body>
   <h1>Our Inventory</h1>
+  <h1>Our Inventory</h1>
+  <body>
+  <h1>Our Inventory</h1>
+
+  <!-- brand filter chips (your JS calls renderBrandChips) -->
+  <div id="brand-chips"></div>
+
+  <!-- the ONLY container your JS should render into -->
+  <div id="inventory-list"></div>
+
+  <!-- single "no results" message -->
+  <p id="noResults" style="display:none">No cars available right now.</p>
+
+  <!-- load JS after parsing so elements exist -->
+  <script src="app.js" defer></script>
+</body>
+
+<!-- add this if your JS renders brand filters -->
+<div id="brand-chips"></div>
+
+<!-- add this if your JS renders the list/cards here -->
+<div id="inventory-list"></div>
+
+<!-- you can keep your grid div if you use it elsewhere -->
+<!-- <div id="inventoryGrid"></div> -->
+<p id="noResults" style="display:none">No cars available right now.</p>
 
   <!-- Grid where cars will display -->
   <div id="inventoryGrid"></div>
