@@ -3,15 +3,9 @@
     "make": "Tesla",
     "model": "Model Y",
     "year": 2020,
-    "price": 42000,
+    "price": 22350,
+    "miles": 39736,
     "image": "images/tesla-model-y-2020/IMG_6515.PNG"
-  },
-  {
-    "make": "Mercedes-Benz",
-    "model": "C300",
-    "year": 2019,
-    "price": 26950,
-    "image": "images/mercedes-c300-2019/photo1.jpg"
   }
 ]
 
