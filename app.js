@@ -7,7 +7,7 @@ const fmtUSD = (n) => n?.toLocaleString('en-US', { style: 'currency', currency: 
 const byId = (id) => document.getElementById(id);
 fetch('inventory.json')
   .then(r => r.json())
-  .then(data => render(data));; renderBrandChips(); render(); }
+  .then(data => render(data));; renderBrandChips(); render(); 
 document.getElementById('searchForm').addEventListener('submit', (e)=>{ e.preventDefault(); state.search = document.getElementById('searchInput').value.trim().toLowerCase(); render(); });
 byId('sortSelect').addEventListener('change', (e)=>{ state.sort = e.target.value; render(); });
 byId('priceApply').addEventListener('click', ()=>{ const minP = parseInt(byId('minPrice').value,10); const maxP = parseInt(byId('maxPrice').value,10); state.minPrice = isNaN(minP)?null:minP; state.maxPrice = isNaN(maxP)?null:maxP; render(); });
