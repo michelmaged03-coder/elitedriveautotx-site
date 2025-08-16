@@ -1,9 +1,22 @@
-[
   {
     "make": "Tesla",
     "model": "Model Y",
     "year": 2020,
     "price": 38999,
-    "image": "images/tesla-model-y-2020/IMG_5515.PNG"
+    "image": "images/tesla-model-y-2020/IMG_6516.PNG"
+  },
+  {
+    "make": "Tesla",
+    "model": "Model Y",
+    "year": 2020,
+    "price": 39999,
+    "image": "images/tesla-model-y-2020/IMG_6517.PNG"
+  },
+  {
+    "make": "Tesla",
+    "model": "Model Y",
+    "year": 2020,
+    "price": 40999,
+    "image": "images/tesla-model-y-2020/IMG_6518.PNG"
   }
 ]
