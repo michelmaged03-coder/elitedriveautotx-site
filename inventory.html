@@ -1,43 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventory - Elite Drive Auto TX</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Inventory</title>
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><link rel="stylesheet" href="style.css">
-        <h1>Our Inventory</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="inventory.html">Inventory</a>
-        </nav>
-    </header>
+  <h1>Our Inventory</h1>
 
-    <main id="car-list"></main>
+  <!-- Grid where cars will display -->
+  <div id="inventoryGrid"></div>
 
-    <script>
-        fetch('inventory.json')
-            .then(response => response.json())
-            .then(data => {
-                const carList = document.getElementById('car-list');
-                data.forEach(car => {
-                    const carDiv = document.createElement('div');
-                    carDiv.classList.add('car');
+  <!-- If no cars found -->
+  <p id="noResults" style="display:none;">No cars available right now.</p>
 
-                    carDiv.innerHTML = `
-                        <h2>${car.year} ${car.make} ${car.model}</h2>
-                        <p>${car.trim}</p>
-                        <p>Price: $${car.price.toLocaleString()}</p>
-                        <p>Miles: ${car.miles.toLocaleString()}</p>
-                        <img src="${car.image}" alt="${car.make} ${car.model}" style="width:300px">
-                    `;
-
-                    carList.appendChild(carDiv);
-                });
-            })
-            .catch(error => console.error('Error loading inventory:', error));
-    </script>
+  <!-- Link to JavaScript -->
+  <script src="app.js"></script>
 </body>
 </html>
